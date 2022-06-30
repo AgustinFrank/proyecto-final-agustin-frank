@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+@import'./variables/extend';
+@import'./variables/mixins';
+@import './variables/tipografias';
+@import'./estructuras/footer';
+@import './estructuras/grilla';
+@import './estructuras/header';
+@import './estructuras/nav';
+@import './secciones/animaciones3d';
+@import './secciones/contacto';
+@import './secciones/index';
+@import './secciones/planos';
+@import './secciones/proyectos';

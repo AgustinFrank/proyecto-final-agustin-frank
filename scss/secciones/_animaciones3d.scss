@@ -1,0 +1,47 @@
+#animaciones3D {
+    .seccion1 {
+       display: flex;
+       justify-content: center;
+       padding-top: 5rem;
+        @include color-main(#d8dbe2);
+        .card{
+            align-items: center;
+            text-align: center;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .seccion2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include color-main(#d8dbe2);
+            padding: 5rem;
+            
+            ul{
+                list-style: none;
+                .slider{
+                    animation: cambio 20s infinite alternate;
+                }
+            }
+    }
+   
+}
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%;}
+    40% { margin-left: -100%;}
+
+    45%{ margin-left: -200%;}
+    55%{margin-left: -200%;}
+
+    60%{ margin-left: -300%;}
+    75%{margin-left: -300%;}
+
+    80%{ margin-left: -400%;}
+    100%{margin-left: -400%;}
+}

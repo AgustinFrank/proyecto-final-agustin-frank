@@ -1,0 +1,13 @@
+#planos{
+    .seccion1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+        @include color-main(#d8dbe2);
+        img{
+            width: 60%;
+        }
+    }
+    
+}
