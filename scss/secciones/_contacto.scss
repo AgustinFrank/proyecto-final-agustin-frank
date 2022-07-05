@@ -6,6 +6,17 @@
         font-size: x-large;
         @include color-main(#d8dbe2);
         padding: 3rem;
+        legend{
+            @extend %titulos
+        }
+        p{
+            font-family: 'Indie Flower', cursive;
+        }
+            
+        input{
+                @extend %titulos;
+        }
+    
     }
 
     .seccion2 {
@@ -28,6 +39,14 @@
 
         iframe {
             padding-left: 10rem;
+        }
+        label{
+            @extend %titulos;
+        }
+        p{
+            input{
+                @extend %titulos;
+            }
         }
     }
 

@@ -5,6 +5,9 @@
         align-items: center;
         padding: 3rem;
         @include color-main(#d8dbe2);
+        h2{
+            @extend %titulos
+        }
         img{
             width: 60%;
         }

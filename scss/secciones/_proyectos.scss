@@ -12,6 +12,9 @@
         text-align: center;
         align-items: center;
         padding: 2rem;
+        h2{
+            @extend %titulos;
+        }
         @include color-main(#d8dbe2);
         .imagen2 {
             img {
