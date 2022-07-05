@@ -8,3 +8,4 @@
 "mejoras de estilo"
 "mejoré la experiencia con el usuario"
 "agregué fonts"
+"agregué favicon"
